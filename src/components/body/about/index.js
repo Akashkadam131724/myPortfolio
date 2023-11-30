@@ -8,16 +8,21 @@ function About() {
       <div className="about-top">
         <div className="about-info">
           Hello There 👋, I am <br />
-          <span className="info-name">Akash B. kadam</span>.<br /> I am Full
-          stack MERN Developer.
+          <br />
+          <span className="info-name">Akash B. kadam</span>.<br />
+          <br /> I am Full stack MERN Developer.
+          <br />
+          <br />
         </div>
         <div className="about-photo">
           <img
-            src="https://media-exp1.licdn.com/dms/image/C5603AQGIe1KlIdDjmw/profile-displayphoto-shrink_800_800/0/1637602616947?e=1652918400&v=beta&t=Ezt2xAJWpoiX7PZkpNO7fPKiVI5dvQzvK74drnrSmo8"
+            src="https://media.istockphoto.com/id/1798502174/photo/smiling-businessman-holding-digital-tablet-and-looking-over-shoulder-on-blue-background.jpg?s=1024x1024&w=is&k=20&c=Dmpu_lAqlkK5X3CCXf5BS86n91EMOI2st8MRjKTsR7k="
             className="picture"
+            alt=""
           />
         </div>
       </div>
+      <br></br>
       <SocialContact />
     </div>
   );
