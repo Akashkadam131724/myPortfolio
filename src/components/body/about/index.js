@@ -8,12 +8,12 @@ function About() {
       <div className="about-top">
         <div className="about-info">
           Hello There 👋, I am <br />
-          <span className="info-name">Akash B. kadam</span>.<br /> I am Fresher. I love
-          experimenting with the web-design.
+          <span className="info-name">Akash B. kadam</span>.<br /> I am Full
+          stack MERN Developer.
         </div>
         <div className="about-photo">
           <img
-            src='https://media-exp1.licdn.com/dms/image/C5603AQGIe1KlIdDjmw/profile-displayphoto-shrink_800_800/0/1637602616947?e=1652918400&v=beta&t=Ezt2xAJWpoiX7PZkpNO7fPKiVI5dvQzvK74drnrSmo8'
+            src="https://media-exp1.licdn.com/dms/image/C5603AQGIe1KlIdDjmw/profile-displayphoto-shrink_800_800/0/1637602616947?e=1652918400&v=beta&t=Ezt2xAJWpoiX7PZkpNO7fPKiVI5dvQzvK74drnrSmo8"
             className="picture"
           />
         </div>
