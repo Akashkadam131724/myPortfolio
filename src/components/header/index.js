@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./header.css";
 import Mobile from "./mobile/index";
 import Web from "./web/index";
-import {GiHamburgerMenu} from 'react-icons/gi'
+import { GiHamburgerMenu } from "react-icons/gi";
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const handleLogoClick = () => {
@@ -14,7 +14,7 @@ function Header() {
   return (
     <div className="header">
       <div onClick={handleLogoClick} className="logo">
-        My Portfolio
+        My Portfolio feature 2
       </div>
       <div className="menu">
         <div className="web-menu">
@@ -23,7 +23,10 @@ function Header() {
 
         <div className="mobile-menu">
           <div onClick={() => setIsOpen(!isOpen)}>
-           <GiHamburgerMenu className="icon" style={{color: 'rgba(0, 0, 255, 0.561)'}}/>
+            <GiHamburgerMenu
+              className="icon"
+              style={{ color: "rgba(0, 0, 255, 0.561)" }}
+            />
           </div>
           {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
         </div>
