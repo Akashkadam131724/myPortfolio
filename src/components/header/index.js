@@ -14,11 +14,7 @@ function Header() {
   return (
     <div className="header">
       <div onClick={handleLogoClick} className="logo">
-<<<<<<< HEAD
-        My Portfolio feature 2
-=======
-        My Portfolio Feature branch
->>>>>>> 238492e53892483f69133b46cc553cac282fa9f6
+        My Portfolio feature 2{" "}
       </div>
       <div className="menu">
         <div className="web-menu">
